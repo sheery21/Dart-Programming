@@ -149,9 +149,48 @@ print('hello ${a[i]} ');
 i++;
 }
 
+Do While Loop
+
+List a = ['sherry' , 'zeeshan' , 'vddfvf','ewfewfeef' , ' wewewewr' , 'ewrwerw','wwewwe','weewewew' ,'weewwewwe','wewere'] ;
+
+int i = 11;
+
+do{
+print(i);
+i++;
+}while( i <=a.length );
 
 
+brack statement
 
+for(int i=1 ; i<= 10 ; i++){
+print('i1 $i');
+if(i == 5){
+break;
+}
+print('i2 $i');
+}
+
+
+optional positinal parameter
+
+animal([ String? name , int? age]){
+
+print(name ?? 'animal');
+print(age ?? 43);
+}
+
+animal( );
+
+optional Named parameter
+
+animal({String? name , int? age}){
+
+print(name);
+print(age );
+}
+
+animal(  );
 }
 
 )
