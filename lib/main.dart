@@ -193,6 +193,42 @@ print(age );
 animal(  );
 }
 
+//   defining calss and odjects
+
+  var Student1 = new Student();
+  var Student2 = new Student();
+
+  Student1.rollnumber = 21;
+  Student1.name = 'sherry';
+  Student1.study();
+  Student1.sleep();
+  print('${Student1} , Student1');
+
+
+
+   Student2.rollnumber = 18;
+  Student2.name = 'sherry hussain';
+   Student2.study();
+  Student2.sleep();
+  print('${Student2} , Student2');
+
+
+class Student  {
+
+  int? rollnumber;  //   default value is null
+  String? name ; //   instance variable or field variable
+ study(){
+   print('$name hello');
+ }
+  sleep(){
+  print('$name bay');
+ }
+  String toString() {
+    return 'student(name: $name , rollnumber , $rollnumber)'; -
+
+
+
+
 )
 ------------------
 3. Booleans
