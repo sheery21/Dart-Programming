@@ -334,6 +334,117 @@ class Cycle extends Bike{
   Cycle.myNamedCycleConstor(String color){
     print('name constructor of cycle ');
   }  
+//   lambda function , anonmous funtion
+//   without name
+
+//  Function sum = (int a , int b){
+//     int sum = a + b ;
+//     print(sum);
+//   };
+
+//   sum(20 , 50);
+// }
+
+// Function aquare = (int n){
+
+//   return n *n;
+
+// };
+// aquare(9);
+
+//   higher order function
+
+//   Function addTwoNumber = ( int a , int b) => a+b;
+
+//   myNewFunction("hello" ,addTwoNumber );
+
+// }
+
+// myNewFunction(String msg , Function summation){
+
+//   print('$msg msg');
+//   print('$summation(10,30) summation');
+// }
+
+
+
+// dart collections // list //array
+//   fixed // growable
+
+//   var arr = [1,2,3,4,5];
+
+//   var fixedLLenghthList = List<int>.filled(5,8
+// , growable : false);
+
+//   fixedLLenghthList[3] = 6;
+//   fixedLLenghthList[2] = 5;
+//   fixedLLenghthList[1] = 4;
+//   fixedLLenghthList[0] = 3;
+
+
+//   print(fixedLLenghthList);
+
+  //   growable
+
+//     var growableLenghthList = List<int>.filled(0,0
+// , growable : true);
+
+
+//   growableLenghthList.add(2);
+//   growableLenghthList.add(25);
+//   growableLenghthList.add(549);
+//   growableLenghthList.add(1092);
+//   growableLenghthList.add(10921);
+//   growableLenghthList.add(151091);
+//   growableLenghthList.add(2311092);
+//   growableLenghthList.add(13210921);
+//   growableLenghthList.add(112610921);
+//   growableLenghthList.add(1112610921);
+
+//   growableLenghthList.remove(10928);
+//   growableLenghthList.removeAt(1);
+//   var elem = growableLenghthList.elementAt(1);
+//   print( elem );
+
+//   growableLenghthList.clear();
+
+//     print(growableLenghthList);
+
+//   for(int element in growableLenghthList){
+//     print(element);
+//   }
+
+//   for(int i = 0; i <growableLenghthList.length;  i++){
+//     print(growableLenghthList[i]);
+//   }
+
+//   growableLenghthList.forEach((element) =>{
+//     print(element)
+//   });
+
+//   dart collections // set
+
+
+//    Set <int> growableLenghthList =Set();
+
+//   growableLenghthList.add(2);
+//   growableLenghthList.add(25);
+//   growableLenghthList.add(549);
+//   growableLenghthList.add(1092);
+//   growableLenghthList.add(10921);
+//   growableLenghthList.add(151091);
+//   growableLenghthList.add(2311092);
+//   growableLenghthList.add(13210921);
+//   growableLenghthList.add(112610921);
+//   growableLenghthList.add(1112610921);
+//   growableLenghthList.add(1112610921);
+
+//    print(growableLenghthList);
+
+
+//   growableLenghthList.forEach((element) =>{
+//     print(element)
+//   });
 
 
 
