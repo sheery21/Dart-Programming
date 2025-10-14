@@ -226,6 +226,114 @@ class Student  {
   String toString() {
     return 'student(name: $name , rollnumber , $rollnumber)'; -
 
+ inheritance
+
+
+
+  Dog objDog = Dog();
+  objDog.color = 'green';
+  objDog.bark();
+
+  Cat objCat = Cat();
+  objCat.age = 29 ;
+   print(objCat);
+  objCat.meow();
+  }
+
+class Animal {
+  String? color;
+  int? age;
+
+  void eat(){
+    print('eating');
+  }
+
+
+}
+class Dog extends Animal{
+  void bark(){
+    print('dog is barking');
+  }
+}
+
+class Cat extends Animal{
+  void meow(){
+    print('cat is meowing');
+  }
+
+   String toString(){
+    return 'Animal(name : $color , rollNumber : $age)';
+   }
+
+
+ Method Overriding // Polymorphism
+
+
+
+  Bike obj = Bike();
+  obj.age = 20;
+  obj.color = 'RED';
+  obj.move();
+  print(obj);
+
+  }
+
+class Bike {
+  String? color;
+  int? age;
+
+  void move(){
+    print(' Bike is Moving');
+  }
+
+
+}
+class Cycle extends Bike{
+  void move(){
+    print('Cycle is Moving');
+  }
+}
+
+class Cat extends Cycle{
+  void move(){
+    super.move();
+    print('cat is meowing');
+  }
+
+   String toString(){
+    return 'Bike(Color : $color , age : $age)';
+   }
+
+
+ Inheritance With Drfault Constructor
+//   Inheritance With Parametrized Constructor
+//   Inheritance With Named Constructor
+
+
+
+  Cycle obj = Cycle();
+  Cycle.myNamedCycleConstor('red');
+
+
+  }
+
+class Bike {
+  String? color;
+
+   Bike(){
+    print('this is bike const');
+  }
+}
+
+class Cycle extends Bike{
+  int? price;
+
+  Cycle(){
+    print('this is cycle const');
+  }
+  Cycle.myNamedCycleConstor(String color){
+    print('name constructor of cycle ');
+  }  
 
 
 
