@@ -447,6 +447,139 @@ class Cycle extends Bike{
 //   });
 
 
+// mixin in dart
+
+
+//   Bartender b = Bartender();
+//   b.
+//   Medical  m = Medical();
+//   Doctor d = Doctor ();
+
+//   mixin Medical {
+//     takeTemp(){}
+// }
+
+// mixin Medical1 {
+//     takeTemp(){}
+// }
+
+// class Employee{
+//   clockIn(){}
+// }
+
+
+// class Doctor extends Employee with Medical ,Medical1 {
+//   operation(){}
+// }
+// class Nurse extends Employee with Medical{
+//   takeCarePatient(){}
+// }
+
+// class Bartender extends Employee{
+//   clockIn(){}
+// }
+
+
+//   extension are way to add functionalty to exsting libraries
+
+//   60.toWord;
+
+
+//   var date = DateTime.now();
+
+//   print(date.myCustomData);
+// }
+
+
+
+// extension on DateTime {
+//   get myCustomData{
+//    return "${this.day}/${this.month}/${this.year}";
+//   }
+
+
+//   singleton cless in flutter
+
+//   The singleton pattern is a pattent used in object-oriente prc //   which ensures that a class has only one instance
+//   and alos provides a global for point of access to it.
+//   sometime it's important for a class to have exactly
+//   one instance.
+
+
+//  NarmalClass ob = NarmalClass();
+//   ob.a = 'vivek';
+
+//   Singletion ob1 = Singletion();
+//   ob1.a = 'rakshan';
+//   print(ob1.a);
+
+//   Singletion ob2 = Singletion();
+//   ob2.a = 'sherry';
+//   print(ob2.a);
+// }
+
+
+
+// class NarmalClass{
+//   String? a;
+// }
+
+// class Singletion{
+//   Singletion.internal();
+
+//   static final Singletion _instance = Singletion.internal();
+
+//   factory Singletion(){
+//     return _instance;
+//   }
+//   String? a;
+
+
+
+//   String methods example
+
+//   String str = "Hello World !";
+
+//   charAt
+//   print(str[1] );
+
+
+//   contains
+//   print(str.contains("!" ));
+
+//   inde of character
+//   print(str.indexOf("o"));
+
+//   //  last inde of character
+//   print(str.lastIndexOf("o"));
+
+//   swapping two numbers without using third variable
+
+//   var a = 10;
+
+//   var b = 20;
+
+//   print("before swap a $a b $b");
+
+
+
+//   var( a , b , c) = (10 ,20 ,30);
+
+//   print("bafore swap a $a b $b c$c");
+
+//   ( c , b , a) = (a , b , c);
+
+//   print("after swap a $a b $b c$c");
+
+//   temp = a;
+
+//   a  = b ;
+
+//   b = temp;
+
+//   print("after swap a $a b $b");
+
+
 
 )
 ------------------
